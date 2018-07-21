@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Juan, read this first!"
 date:   2018-07-21 19:43:25 +0200
 categories: jekyll update
 ---

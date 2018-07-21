@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Reports"
+date:   2017-11-20
+categories: reports
+---
+{:.center}
+![reports logo](/assets/img/reports-icon.png)
+
+Find here interactive reports on data samples. Check import issues in the menu to properly interpret these data. Click on the picture for a sample report from April 2018.
+
+[![datastudio](/assets/img/datastudio.png)](https://datastudio.google.com/embed/reporting/16g6xw9k0vY3L6AIPjFm-j-LXUyjPX0Nf/page/xjKM)
+
