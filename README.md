@@ -35,3 +35,9 @@ Configuration file: /Users/jdonado/Git/lifescope-blog/_config.yml
 ```
 
 Just open the server address to preview the contents.
+
+## Build a new version
+
+Just compile the blog to `/docs`:
+
+`jekyll build --destination docs`
