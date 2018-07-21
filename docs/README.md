@@ -38,10 +38,6 @@ Just open the server address to preview the contents.
 
 ## Build a new version
 
-First, remove the current `/docs` directory:
-
-`rm -rf docs`
-
-Now, compile the blog to `/docs`:
+Just compile the blog to `/docs`:
 
 `jekyll build --destination docs`
