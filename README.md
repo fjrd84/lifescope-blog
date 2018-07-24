@@ -17,6 +17,7 @@ Then, run the following commands on the console.
  sudo gem update --system
  sudo gem install -n /usr/local/bin jekyll
  sudo gem install -n /usr/local/bin jekyll-feed
+ gem install jekyll-seo-tag
  jekyll serve
 ```
 
