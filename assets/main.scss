@@ -43,7 +43,22 @@ $on-laptop:        800px;
   }
 }
 
-
-
 // Import partials from the `whiteglass` theme.
 @import "whiteglass";
+
+.site-title {
+  font-family: raleway-medium;
+  .marked-title {
+    display: inline-block;
+    background-color: #3e55ff;
+    border-radius: 50px;
+    color: white;
+    height: 2rem;
+    padding: 0 0.5rem 0 0.5rem;
+    line-height: 2rem;
+  }
+}
+
+a.site-title:hover{
+  text-decoration: none;
+}
