@@ -4,7 +4,7 @@ title: "Algorithm's confidence"
 permalink: /confidence/
 ---
   
-[![Alt text](/assets/img/confidence.png)](http://www.lifescope-project.com/)
+[![Alt text](/assets/img/confidence.png)](https://datastudio.google.com/embed/reporting/17i3EjWTInDBFbFK1ruNQyvw-ijbxFXk1/page/9zcN)
 *Click on this preview for a detailed report on the algorithm's confidence level*
 &nbsp;  
 &nbsp; 
