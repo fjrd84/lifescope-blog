@@ -46,16 +46,22 @@ $on-laptop:        800px;
 // Import partials from the `whiteglass` theme.
 @import "whiteglass";
 
+%source-label {
+  font-family: raleway-medium;
+  display: inline-block;
+  border-radius: 50px;
+  color: white;
+  height: 2rem;
+  padding: 0 0.2rem 0 0.2rem;
+  line-height: 2rem;
+}
+
 .site-title {
   font-family: raleway-medium;
   .marked-title {
-    display: inline-block;
-    background-color: #3e55ff;
-    border-radius: 50px;
-    color: white;
-    height: 2rem;
+    @extend %source-label;
     padding: 0 0.5rem 0 0.5rem;
-    line-height: 2rem;
+    background-color: #3e55ff;
   }
 }
 
@@ -64,122 +70,56 @@ a.site-title:hover{
 }
 
 .institution {
-  font-family: raleway-medium;
-  display: inline-block;
-  border-radius: 50px;
-  color: white;
-  height: 2rem;
-  padding: 0 0.2rem 0 0.2rem;
-  line-height: 2rem;
+  @extend %source-label;
   background-color: #2ecc40;
 }
 
 .academia {
-  font-family: raleway-medium;
-  display: inline-block;
-  border-radius: 50px;
-  color: white;
-  height: 2rem;
-  padding: 0 0.2rem 0 0.2rem;
-  line-height: 2rem;
+  @extend %source-label;
   background-color: #f012be;
 }
 
 .doctor {
-  font-family: raleway-medium;
-  display: inline-block;
-  border-radius: 50px;
-  color: white;
-  height: 2rem;
-  padding: 0 0.2rem 0 0.2rem;
-  line-height: 2rem;
+  @extend %source-label;
   background-color: #ff851b;
 }
 
 .publishingsource {
-  font-family: raleway-medium;
-  display: inline-block;
-  border-radius: 50px;
-  color: white;
-  height: 2rem;
-  padding: 0 0.2rem 0 0.2rem;
-  line-height: 2rem;
+  @extend %source-label;
   background-color: #ffdc00;
 }
 
 .professional {
-  font-family: raleway-medium;
-  display: inline-block;
-  border-radius: 50px;
-  color: white;
-  height: 2rem;
-  padding: 0 0.2rem 0 0.2rem;
-  line-height: 2rem;
+  @extend %source-label;
   background-color: #85144b;
 }
 
 .medbusiness {
-  font-family: raleway-medium;
-  display: inline-block;
-  border-radius: 50px;
-  color: white;
-  height: 2rem;
-  padding: 0 0.2rem 0 0.2rem;
-  line-height: 2rem;
+  @extend %source-label;
   background-color: #3d9970;
 }
 
 .interested {
-  font-family: raleway-medium;
-  display: inline-block;
-  border-radius: 50px;
-  color: white;
-  height: 2rem;
-  padding: 0 0.2rem 0 0.2rem;
-  line-height: 2rem;
+  @extend %source-label;
   background-color: #39cccc;
 }
 
 .initiative {
-  font-family: raleway-medium;
-  display: inline-block;
-  border-radius: 50px;
-  color: white;
-  height: 2rem;
-  padding: 0 0.2rem 0 0.2rem;
-  line-height: 2rem;
+  @extend %source-label;
   background-color: #ff4136;
 }
 
 .association {
-  font-family: raleway-medium;
-  display: inline-block;
-  border-radius: 50px;
-  color: white;
-  height: 2rem;
-  padding: 0 0.2rem 0 0.2rem;
-  line-height: 2rem;
+  @extend %source-label;
   background-color: #777777;
 }
 
 .generic {
-  font-family: raleway-medium;
-  display: inline-block;
-  border-radius: 50px;
-  color: white;
-  height: 2rem;
-  padding: 0 0.2rem 0 0.2rem;
-  line-height: 2rem;
+  @extend %source-label;
   background-color: #0074d9;
 }
 
 .news {
-  font-family: raleway-medium;
-  display: inline-block;
-  border-radius: 50px;
-  color: white;
-  height: 2rem;
-  padding: 0 0.2rem 0 0.2rem;
-  line-height: 2rem;
+  @extend %source-label;
   background-color: #001f3f;
 }
