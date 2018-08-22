@@ -123,3 +123,9 @@ a.site-title:hover{
   @extend %source-label;
   background-color: #001f3f;
 }
+
+.subsection {
+  @extend %source-label;
+  padding: 0 0.5rem 0 0.5rem;
+  background-color: #3e54ff9e;
+}
