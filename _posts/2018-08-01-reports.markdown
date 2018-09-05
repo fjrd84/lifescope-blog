@@ -1,10 +1,13 @@
 ---
 layout: post
-title:  "April's report"
-date:   2018-08-01
-categories: disease treatment dermatology psichiatry
+title:  "First stats of the project"
+date:   2018-09-02
+categories: PubMed Twitter ClinicalTrials profiles
 ---
 {:.center}
 
-[![datastudio](/assets/img/datastudio.png)](https://datastudio.google.com/embed/reporting/16g6xw9k0vY3L6AIPjFm-j-LXUyjPX0Nf/page/xjKM)
+&nbsp; 
 
+<a href="https://datastudio.google.com/embed/reporting/1ZGNnz1iYCxG3cchCDdEKuhvTe4O2UI3s/page/LvLX" target="blank">
+![Alt text](/assets/img/lifescopeinfigures.png)
+</a>
