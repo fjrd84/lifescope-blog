@@ -129,3 +129,23 @@ a.site-title:hover{
   padding: 0 0.5rem 0 0.5rem;
   background-color: #3e54ff9e;
 }
+
+.solution {
+  @extend %source-label;
+  padding: 0 0.5rem 0 0.5rem;
+  background-color: #3eff4ea6;
+  color: #000000
+}
+
+.problem {
+  @extend %source-label;
+  padding: 0 0.5rem 0 0.5rem;
+  background-color: #ff3e3e77;
+  color: #000000
+}
+
+.test {
+  @extend %source-label;
+  padding: 0 0.5rem 0 0.5rem;
+  background-color: #04061591;
+}
