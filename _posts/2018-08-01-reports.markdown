@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "First stats of the project"
+title:  "Global stats of the project"
 date:   2018-09-02
 categories: PubMed Twitter ClinicalTrials profiles
 ---
