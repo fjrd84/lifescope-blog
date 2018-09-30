@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  
+  
+  <title>lifescope</title>
+  <meta name="description" content="Lifescope is an Artificial Intelligence software that finds solutions to health diseases in digital sources, such as social networks or news feeds">
+  
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="/confidence_about/">
+  
+  
+  <link rel="alternate" type="application/rss+xml" title="lifescope" href="/feed.xml">
+
+  
+
+  
+  <meta name="twitter:card" content="summary">
+  
+  <meta name="twitter:title" content="lifescope">
+  <meta name="twitter:description" content="Lifescope is an Artificial Intelligence software that finds solutions to health diseases in digital sources, such as social networks or news feeds">
+  
+  
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css?family=Bitter:400,400i,700" rel="stylesheet">
+
+  
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title"
+      href="/">lifescope
+      <span class="marked-title">insights</span>
+    </a>
+
+    <nav class="site-nav">
+       
+      <a class="page-link"
+        href="/sources/">Data sources</a>
+       
+      <a class="page-link"
+        href="/confidence/">Algorithm's confidence</a>
+      
+    </nav>
+
+  </div>
+
+</header>
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title"></h1>
+  </header>
+
+  <div class="post-content">
+    <h2 id="how-do-we-evaluate-it">How do we evaluate it?</h2>
+
+<p>We have manually tested <strong>a sample of solutions and diseases</strong> retrieved by the algorithm. A retrieved solution or disease is tested <em>True</em> or <em>False</em> <strong>depending on how good or bad the algorithm performs in understanding natural language</strong>.</p>
+
+<p>For example, Lifescope retrieves <em>botox</em> as solution, and <em>bruxism</em> as disease, in the following Twitter message:</p>
+
+<p><em>Thank you for spreading the word about <span class="solution">botox</span> as a treatment for <span class="problem">bruxism</span></em>      <span class="test">1 + 1</span></p>
+
+<p> </p>
+
+<p>Both retrieved items are <strong>True</strong> (both were properly understood as a treatment and a condition), hence we assign 1 to both the solution and the disease. If <strong>False</strong>, we assign 0, as in the first match of the following message:</p>
+
+<p><em><span class="solution">Purkinje neuron degeneration</span> on <span class="problem">cerebellar ataxia</span></em>     <span class="test">0 + 1</span></p>
+
+<p> </p>
+
+<p>And 0.5 to <strong>poorly informative cases</strong> as the following, where <em>screening</em> is OK, but the appropriate match would have been <em>screening of FOXD3</em>.</p>
+
+<p><em><span class="solution">Screening</span> of FOXD3 targets in <span class="problem">lung cancer</span></em>     <span class="test">0.5 + 1</span></p>
+
+<p> </p>
+
+<p>Finally, note that <strong>we are not evaluating the retrieved content, that is, if the solution is clinically good or bad, or even true or false</strong>. For this reason, if the input text were <em>a purple lemon to prevent cancer</em>, we would assign 1 to <em>purple lemon</em> as a solution.</p>
+
+<p>However, as the Lifescope’s algorithm receives inputs only from healthcare-related users (see the <a href="/sources/">Sources</a> section), we don’t expect many purple lemon matches as a cancer therapy!</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left"> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><a href="/confidence/"><span class="subsection"> &lt; Confidence report</span></a></td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+
+  
+
+</article>
+
+      </div>
+    </main>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <p>
+      
+
+ Provided by the <a href="https://www.lifescope-project.com">Lifescope Project</a>
+
+    </p>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

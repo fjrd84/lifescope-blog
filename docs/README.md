@@ -13,10 +13,9 @@ First of all, [install Ruby on your system](https://www.ruby-lang.org/en/documen
 
 Then, run the following commands on the console.
 
-```
+```bash
  sudo gem update --system
- sudo gem install -n /usr/local/bin jekyll
- sudo gem install -n /usr/local/bin jekyll-feed
+ bundle install # Install the required gems
  jekyll serve
 ```
 
