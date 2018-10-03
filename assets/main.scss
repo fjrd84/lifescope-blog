@@ -3,6 +3,12 @@
 ---
 @charset "utf-8";
 
+//From to ./assets
+@font-face {
+  font-family: raleway-medium;
+  src: url("./fonts/Raleway-Medium.ttf")
+}
+
 // Our variables
 $base-font-family: Raleway, Bitter, "Apple SD Gothic Neo", AppleGothic, NanumBarunGothic, "Malgun Gothic", Dotum, sans-serif;
 $monospace-font-family: Raleway, Monaco, Menlo, Consolas, "Courier New", DotumChe, monospace;
@@ -67,6 +73,18 @@ $on-laptop:        800px;
 
 a.site-title:hover{
   text-decoration: none;
+}
+
+.menu-label {
+  color: white;
+  background-color: #3e55ff;
+  font-family: raleway-medium;
+  font-size: 17px;
+  display: inline-block;
+  border-radius: 40px;
+  height: 1.4rem;
+  padding: 0 0.2rem 0 0.2rem;
+  line-height: 1.4rem;
 }
 
 .institution {
