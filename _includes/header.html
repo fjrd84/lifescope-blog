@@ -11,7 +11,7 @@
       {% for link in site.data.navigation.main %} {% if link.url contains "http" %} {% assign url = link.url %} {% else %} {% assign
       url = link.url | relative_url %} {% endif %}
       <a class="page-link"
-        href="{{ url }}">{{ link.title }}</a>
+        href="{{ url }}"><span class="menu-label">{{ link.title }}</span></a>
       {% endfor %}
     </nav>
 
