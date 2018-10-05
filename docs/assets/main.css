@@ -1,3 +1,6 @@
+@font-face {
+  font-family: raleway-medium;
+  src: url("./fonts/Raleway-Medium.ttf"); }
 /**
  * Reset some basic elements
  */
@@ -450,6 +453,17 @@ pre {
 
 a.site-title:hover {
   text-decoration: none; }
+
+.menu-label {
+  color: white;
+  background-color: #3e55ff;
+  font-family: raleway-medium;
+  font-size: 17px;
+  display: inline-block;
+  border-radius: 40px;
+  height: 1.4rem;
+  padding: 0 0.2rem 0 0.2rem;
+  line-height: 1.4rem; }
 
 .institution {
   background-color: #2ecc40; }
