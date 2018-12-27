@@ -1,6 +1,7 @@
 @font-face {
   font-family: raleway-medium;
-  src: url("./fonts/Raleway-Medium.ttf"); }
+  src: url("./fonts/Raleway-Medium.ttf");
+  src: url("./fonts/Raleway-Medium.eot") format("embedded-opentype"), url("./fonts/Raleway-Medium.woff2") format("woff2"), url("./fonts/Raleway-Medium.woff") format("woff"); }
 /**
  * Reset some basic elements
  */
