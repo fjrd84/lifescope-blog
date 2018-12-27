@@ -16,13 +16,13 @@ Then, run the following commands on the console.
 ```bash
  sudo gem update --system
  bundle install # Install the required gems
- jekyll serve
+ bundle exec jekyll serve
 ```
 
 If everything went fine, you'll see something like this on the console:
 
 ```bash
-> lifescope-blog jekyll serve
+> lifescope-blog bundle exec jekyll serve
 Configuration file: /Users/jdonado/Git/lifescope-blog/_config.yml
             Source: /Users/jdonado/Git/lifescope-blog
        Destination: /Users/jdonado/Git/lifescope-blog/_site
@@ -39,4 +39,4 @@ Just open the server address to preview the contents.
 
 Just compile the blog to `/docs`:
 
-`jekyll build --destination docs`
+`bundle exec jekyll build --destination docs`
