@@ -13,8 +13,8 @@
 }
 
 // Our variables
-$base-font-family: Raleway, Bitter, "Apple SD Gothic Neo", AppleGothic, NanumBarunGothic, "Malgun Gothic", Dotum, sans-serif;
-$monospace-font-family: Raleway, Monaco, Menlo, Consolas, "Courier New", DotumChe, monospace;
+$base-font-family: raleway-medium, Bitter, "Apple SD Gothic Neo", AppleGothic, NanumBarunGothic, "Malgun Gothic", Dotum, sans-serif;
+$monospace-font-family: raleway-medium, Monaco, Menlo, Consolas, "Courier New", DotumChe, monospace;
 $base-font-size:   18px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
@@ -23,7 +23,7 @@ $base-line-height: 1.5;
 $spacing-unit:     30px;
 
 $text-color:       #111;
-$background-color: #fdfdfd;
+$background-color: #ffffff;
 $brand-color:      #2568ba;
 
 $grey-color:       #828282;
@@ -70,7 +70,7 @@ $on-laptop:        800px;
   .marked-title {
     @extend %source-label;
     padding: 0 0.5rem 0 0.5rem;
-    background-color: #3e55ff;
+    background-color: #3e54ff9e;
   }
 }
 
@@ -80,7 +80,7 @@ a.site-title:hover{
 
 .menu-label {
   color: white;
-  background-color: #3e55ff;
+  background-color: #3e54ff9e;
   font-family: raleway-medium;
   font-size: 17px;
   display: inline-block;
