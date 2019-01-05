@@ -15,9 +15,9 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font: 400 18px/1.5 Raleway, Bitter, "Apple SD Gothic Neo", AppleGothic, NanumBarunGothic, "Malgun Gothic", Dotum, sans-serif;
+  font: 400 18px/1.5 raleway-medium, Bitter, "Apple SD Gothic Neo", AppleGothic, NanumBarunGothic, "Malgun Gothic", Dotum, sans-serif;
   color: #111;
-  background-color: #fdfdfd;
+  background-color: #ffffff;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
   -moz-font-feature-settings: "kern" 1;
@@ -112,7 +112,7 @@ hr {
  */
 pre,
 code {
-  font-family: Raleway, Monaco, Menlo, Consolas, "Courier New", DotumChe, monospace;
+  font-family: raleway-medium, Monaco, Menlo, Consolas, "Courier New", DotumChe, monospace;
   font-size: 13px;
   border: 1px solid white;
   border-radius: 0;
@@ -450,14 +450,14 @@ pre {
   font-family: raleway-medium; }
   .site-title .marked-title {
     padding: 0 0.5rem 0 0.5rem;
-    background-color: #3e55ff; }
+    background-color: #3e54ff9e; }
 
 a.site-title:hover {
   text-decoration: none; }
 
 .menu-label {
   color: white;
-  background-color: #3e55ff;
+  background-color: #3e54ff9e;
   font-family: raleway-medium;
   font-size: 17px;
   display: inline-block;
